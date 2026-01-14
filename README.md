@@ -31,6 +31,7 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 ### 喂饭教程
 
 -   [@一泽 Eze：Agent Skills 终极指南：入门、精通、预测](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ)
+-   [@数字生命卡兹克：一文带你看懂，火爆全网的 Skills 到底是个啥](https://x.com/Khazix0918/status/2010940910083940382)：
 -   [@向阳乔木：Claude Skill 免费白嫖，小白友好，开箱即用，绝了！](https://x.com/vista8/status/2010540934359097689)
 -   [@王树义：一篇文章搞懂 AI 怎么从「嘴替」升级成「打工人」](https://x.com/wshuyi/status/2009451186039214388)
 -   [@岚叔：手把手教你多平台使用 Skill](https://x.com/LufzzLiz/status/2010309748714037756)
@@ -40,12 +41,11 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 -   [@宝玉：五步框架把 Workflow 变成可进化的 Skill](https://x.com/dotey/status/2010176124450484638)
 -   [@歸藏：带动效的 PPT 生成 Agent！使用教学&创作思路](https://x.com/op7418/status/2010979152284041401)
 -   [@李不凯正在研究：日常工作类 Agent Skills 最佳实践](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA)
--
 
 ### 深度分析
 
 -   [@凡人小北：中推圈都在教怎么写 Skill，但你可能正在重复 MCP 的错误](https://x.com/frxiaobei/status/2011075599083995566)
--   [@deeptoai：Claude Agent Skills：第一性原理深度解析](https://skills.deeptoai.com/zh/docs/ai-ml/claude-agent-skills-first-principles-deep-dive)
+-   [@deeptoai：Claude Agent Skills 第一性原理深度解析](https://skills.deeptoai.com/zh/docs/ai-ml/claude-agent-skills-first-principles-deep-dive)
 
 ## 官方支持
 
@@ -68,8 +68,10 @@ Agent Skills 开放标准已得到 OpenAI/Google/Github/Cursor 等多家 AI 行�
 
 其他特色 Agent Skills 商店还有：
 
+-   [SkillStore](https://skillstore.io/zh-hans)：对 Skill 进行了安全审计的中文商店
+-   [活水插件](https://42plugin.com/)：中文 Plugin 商店， 包括 Skills 板块
 -   [skills.rest](https://skills.rest/)：提供 Skill 评分的 Agent Skills 商店
--   [活水插件](https://42plugin.com/)：中文本地化的 Agent Skills 商店
+-   [aitmpl](https://www.aitmpl.com/skills)：一个综合性的 Plugin 商店，新增了 Agent Skills 板块
 
 ## 精选技能
 
@@ -96,9 +98,11 @@ Agent Skills 开放标准已得到 OpenAI/Google/Github/Cursor 等多家 AI 行�
 -   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)：增强 Obsidian 功能的 Skills 集合
 -   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): 发布 X 文章的 Skill
 -   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 的 Skill
+-   [huggingface/skills](https://github.com/huggingface/skills)：使用 Skill 在 HuggingFace 训练大模型
 
 ### 其他类型
 
+-   [anthropics/skills](https://github.com/anthropics/skills)：Anthropic 官方 Skills 集合，适合学习 Skill 优质实例
 -   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)：使用文件规划实现类 Manus 效果的 Skill
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 面向科研工作者的 Skills 集合
 
