@@ -24,38 +24,65 @@
 
 Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills.io/home)，能便捷地将个人经验转化为 AI Skill，快速构建轻量级的 Personal Agent。
 
--   [Agent Skills 终极指南：入门、精通、预测](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ)
--   [别再当"复读机"了：Claude Code 新王炸功能 Skills 深度研究](https://mp.weixin.qq.com/s/vQkekUtdqF5BJhSVNMU__g)
--   [Cherry Studio + Claude Code：日常工作类 Agent Skills 最佳实践](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA)
--   [Claude Agent Skills：第一性原理深度解析](https://skills.deeptoai.com/zh/docs/ai-ml/claude-agent-skills-first-principles-deep-dive)
+以下是来自各个社交媒体上广受好评的中文版教程，从理论到实践、从入门到精通，全面覆盖各个方面：
 
-## 产品使用
+-   [@一泽 Eze：Agent Skills 终极指南：入门、精通、预测](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ)
+-   [@向阳乔木：Claude Skill 免费白嫖，小白友好，开箱即用，绝了！](https://x.com/vista8/status/2010540934359097689)
+-   [@岚叔：手把手教你多平台使用 Skill](https://x.com/LufzzLiz/status/2010309748714037756)
+-   [@宝玉：五步框架把 Workflow 变成可进化的 Skill](https://x.com/dotey/status/2010176124450484638)
+-   [@歸藏：带动效的 PPT 生成 Agent！使用教学&创作思路](https://x.com/op7418/status/2010979152284041401)
+-   [@王树义：一篇文章搞懂 AI 怎么从「嘴替」升级成「打工人」](https://x.com/wshuyi/status/2009451186039214388)
+-   [@李不凯正在研究：日常工作类 Agent Skills 最佳实践](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA)
+-   [@deeptoai：Claude Agent Skills：第一性原理深度解析](https://skills.deeptoai.com/zh/docs/ai-ml/claude-agent-skills-first-principles-deep-dive)
 
-Agent Skills 开放标准已得到 OpenAI/Github/Cursor 等多家 AI 行业领军公司的支持，迅速被各个主流 AI 产品采用。
+## 官方支持
+
+Agent Skills 开放标准已得到 OpenAI/Google/Github/Cursor 等多家 AI 行业领军公司的支持，迅速被各个主流 AI 产品采用。
 
 ![Partner](assets/partners.png)
 
 -   [Anthropic/Claude Code](https://claude.com/skills)： 在 Claude Code 中使用 Skills 的说明文档
 -   [OpenAI/Codex](https://developers.openai.com/codex/skills/)： 在 Codex 中使用 Skills 的说明文档
+-   [Google/Antigravity](https://antigravity.google/docs/skills)：在 Antigravity 中使用 Skills 的说明文档
 -   [Github/VS Code](https://code.visualstudio.com/docs/copilot/customization/agent-skills)：在 VS Code 中使用 Agent Skills 的说明文档
 -   [Cursor](https://cursor.com/cn/docs/context/skills)：在 Cursor 中使用 Agent Skills 的说明文档
 
-> [!WARNING]
-> 阿里旗下的 Qwen Code 从 0.6.0 版本开始实验性支持技能，但采用的是专有标准，与 Agent Skills 开放标准存在差异，详情参见 [官方文档](https://qwenlm.github.io/qwen-code-docs/zh/users/features/skills/)
-
 ## 技能商店
 
--   [![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
+[![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
 
-仅推荐 [skillsmp](https://skillsmp.com/zh) 这一个 Agent Skills 在线商店。该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理，用户可以方便地浏览、搜索和下载所需的 Skills。
+推荐使用 [skillsmp](https://skillsmp.com/zh) 这个 Agent Skills 在线商店。该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理，用户可以方便地浏览、搜索和下载所需的 Skills。
+
+其他类型的 Skill 商店包括：
+
+-   [skills.rest](https://skills.rest/)：提供 Skill 评分的 Agent Skills 商店
+-   [活水插件](https://42plugin.com/)：中文本地化的 Agent Skills 商店
 
 ## 精选技能
 
--   [anthropics/skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator): Anthropic 官方出品用于创建 skill 的元 skill，可快速创建个人专属的 Agent Skills
--   [anthropics/skills](https://github.com/anthropics/skills)：Anthropic 官方出品的 Skills 集合，可处理 Office 全系文档格式
+### 技能创建
+
+-   [anthropics/skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator): Anthropic 官方出品用于创建 skill 的元技能，可快速创建个人专属的 skill
+
+### 文档处理
+
+-   **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)**：创建、编辑和分析 Word 文档，支持修订、评论、格式保留和文本提取
+-   **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)**：全面的 PDF 操作工具包，用于提取文本和表格、创建新 PDF、合并/拆分文档以及处理表单
+-   **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)**：创建、编辑和分析 PowerPoint 演示文稿，支持布局、模板、图表和自动幻灯片生成
+-   **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)**：创建、编辑和分析 Excel 电子表格，支持公式、格式、数据分析和可视化
+
+### 编程工具
+
 -   [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills): 涵盖完整编程项目工作流程的 Skills 集合
 -   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)：涵盖多个编程类任务的优质 Skills 集合
 -   [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：面向 UI/UX 设计的 Skills 集合
+
+### 其他类型
+
+-   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)：面向 Obsidian 的 Skills 集合
+-   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)：使用文件规划实现类 Manus 持续运行的 Skill
+-   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): 用于发布 X 文章的 Skill
+-   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py)：使用 Skill 操控 NotebookLM
 -   [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)： 面向科研工作者的 Skills 集合
 
 ## 配套工具
