@@ -116,7 +116,7 @@ Agent Skills 开放标准已得到 OpenAI/Google/Github/Cursor 等多家 AI 行�
 ## 配套工具
 
 -   [agent-skills-guard](https://github.com/brucevanfdm/agent-skills-guard)：Agent skills 可视化管理+精选仓库+安全扫描
--   [https://skillmaster.cc/cli](https://github.com/davidyangcool/agent-skill)：通过终端管理、安装和使用 Agent Skills
+-   [skillmaster](https://github.com/davidyangcool/agent-skill)：通过终端管理、安装和使用 Agent Skills
 -   [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers): 自动化抓取文档网站、GitHub 仓库和 PDF 文件转换为 Agent Skills
 
 ## 待审查资源
