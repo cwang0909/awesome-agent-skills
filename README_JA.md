@@ -144,6 +144,7 @@ Agent Skills をインストールするには、Skill フォルダを適切な�
 
 -   [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers): ドキュメントサイト、GitHub リポジトリ、PDF ファイルを Agent Skills に自動変換
 -   [openskills](https://github.com/numman-ali/openskills): 複数の Agent プラットフォームをサポートするグローバル Skills ローディングツール
+-   [skild.sh](https://skild.sh/): 複数のツールで Skills をインストール、管理、同期するための CLI ツール
 -   [agent-skills-guard](https://github.com/brucevanfdm/agent-skills-guard): Agent Skills の視覚的管理 + 厳選リポジトリ + セキュリティスキャン
 -   [skillmaster](https://github.com/davidyangcool/agent-skill): ターミナル経由で Agent Skills を管理、インストール、使用
 

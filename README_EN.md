@@ -144,6 +144,7 @@ Other featured Agent Skills marketplaces:
 
 -   [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers): Automated conversion of documentation sites, GitHub repos, and PDFs into Agent Skills
 -   [openskills](https://github.com/numman-ali/openskills): Global Skills loading tool supporting multiple Agent platforms
+-   [skild.sh](https://skild.sh/): CLI tool for installing, managing, and syncing Skills across multiple tools
 -   [agent-skills-guard](https://github.com/brucevanfdm/agent-skills-guard): Agent Skills visualization management + curated repo + security scanning
 -   [skillmaster](https://github.com/davidyangcool/agent-skill): Manage, install, and use Agent Skills via terminal
 
