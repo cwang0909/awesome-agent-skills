@@ -30,7 +30,7 @@ English | [日本語](README_JA.md) | [简体中文](README.md)
 
 This project is dedicated to collecting and sharing the finest Chinese-language Agent Skills tutorials, case studies, and best practices. Contributions are welcome via Issues.
 
-> Follow me on 🐦‍⬛ [@李不凯正在研究](https://x.com/libukai) for the latest news and practical tutorials about Agent Skills!
+> Follow me on 🐦‍⬛ [@libukai](https://x.com/libukai) for the latest news and practical tutorials about Agent Skills!
 
 ## Quick Start
 
