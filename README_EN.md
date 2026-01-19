@@ -113,6 +113,13 @@ Other featured Agent Skills marketplaces:
 -   [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx): Create, edit, and analyze Excel spreadsheets with support for formulas, formatting, data analysis, and visualization
 -   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf): Comprehensive PDF toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms
 
+### Content Creation
+
+-   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills): Personal Skills collection from Baoyu, including WeChat Official Account writing, PPT creation, and more
+-   [op7418/NanoBanana-PPT-Skills)](https://github.com/op7418/NanoBanana-PPT-Skills): NanoBanana-based PPT generation Skill by Guizang
+-   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): Skill for publishing X articles
+-   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator): Generate and optimize text-to-image prompts using Skills
+
 ### Programming Assistance
 
 -   [anthropics/skills](https://github.com/anthropics/skills): Official Skills collection from Anthropic
@@ -124,15 +131,11 @@ Other featured Agent Skills marketplaces:
 
 ### Product Usage
 
+-   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py): Skill for controlling NotebookLM
 -   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills): Official multi-functional Skills collection from Dify
 -   [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills): Skills collection for creating n8n workflows
 -   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills): Skills collection for enhancing Obsidian functionality
 -   [huggingface/skills](https://github.com/huggingface/skills): Use Skills to train large models on HuggingFace
--   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): Skill for publishing X articles
--   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py): Skill for controlling NotebookLM
--   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills): Personal Skills collection from Baoyu, including auto-publishing to WeChat Official Accounts
--   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator): Generate and optimize text-to-image prompts using Skills
--   [op7418/NanoBanana-PPT-Skills)](https://github.com/op7418/NanoBanana-PPT-Skills): NanoBanana-based PPT generation Skill
 
 ### Other Types
 

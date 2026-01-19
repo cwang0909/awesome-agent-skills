@@ -113,6 +113,13 @@ Agent Skills をインストールするには、Skill フォルダを適切な�
 -   [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx): 数式、書式、データ分析、可視化をサポートした Excel スプレッドシートの作成、編集、分析
 -   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf): テキストと表の抽出、新規 PDF 作成、ドキュメントの結合/分割、フォーム処理のための包括的な PDF ツールキット
 
+### コンテンツ作成
+
+-   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills): Baoyu 個人用 Skills コレクション。WeChat 公式アカウント執筆、PPT 作成などを含む
+-   [op7418/NanoBanana-PPT-Skills)](https://github.com/op7418/NanoBanana-PPT-Skills): Guizang 制作の NanoBanana ベース PPT 生成 Skill
+-   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): X 記事公開用 Skill
+-   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator): Skills を使用したテキスト to 画像プロンプトの生成と最適化
+
 ### プログラミング支援
 
 -   [anthropics/skills](https://github.com/anthropics/skills): Anthropic 公式 Skills コレクション
@@ -124,15 +131,11 @@ Agent Skills をインストールするには、Skill フォルダを適切な�
 
 ### プロダクト利用
 
+-   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py): NotebookLM 制御用 Skill
 -   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills): Dify 公式の多機能 Skills コレクション
 -   [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills): n8n ワークフロー作成用 Skills コレクション
 -   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills): Obsidian 機能拡張用 Skills コレクション
 -   [huggingface/skills](https://github.com/huggingface/skills): HuggingFace で大規模モデルをトレーニングするための Skills
--   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): X 記事公開用 Skill
--   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py): NotebookLM 制御用 Skill
--   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills): Baoyu 個人用 Skills コレクション。WeChat 公式アカウントへの自動公開機能を含む
--   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator): Skills を使用したテキスト to 画像プロンプトの生成と最適化
--   [op7418/NanoBanana-PPT-Skills)](https://github.com/op7418/NanoBanana-PPT-Skills): NanoBanana ベースの PPT 生成 Skill
 
 ### その他のタイプ
 

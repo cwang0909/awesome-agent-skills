@@ -113,6 +113,13 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 -   [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)：创建、编辑和分析 Excel 电子表格，支持公式、格式、数据分析和可视化
 -   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)：全面的 PDF 操作工具包，用于提取文本和表格、创建新 PDF、合并/拆分文档以及处理表单
 
+### 内容创作
+
+-   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉老师的自用 SKills 集合，包括公众号写作、PPT 制作等功能
+-   [op7418/NanoBanana-PPT-Skills)](https://github.com/op7418/NanoBanana-PPT-Skills)：歸藏制作的基于 NanoBanana 生成 PPT 的 Skill
+-   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): 发布 X 文章的 Skill
+-   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator)：黄佬使用 Skill 生成和优化文生图提示词
+
 ### 编程辅助
 
 -   [anthropics/skills](https://github.com/anthropics/skills)：Anthropic 官方 Skills 集合
@@ -124,15 +131,11 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 
 ### 产品使用
 
+-   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 的 Skill
 -   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills)：Dify 官方出品的多功能 Skills 集合
 -   [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流的 Skills 集合
 -   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)：增强 Obsidian 功能的 Skills 集合
 -   [huggingface/skills](https://github.com/huggingface/skills)：使用 Skill 在 HuggingFace 训练大模型
--   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): 发布 X 文章的 Skill
--   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 的 Skill
--   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉老师的自用 SKills 集合，包括自动发公众号功能等
--   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator)：黄佬使用 Skill 生成和优化文生图提示词
--   [op7418/NanoBanana-PPT-Skills)](https://github.com/op7418/NanoBanana-PPT-Skills)：歸藏制作的基于 NanoBanana 生成 PPT 的 Skill
 
 ### 其他类型
 
