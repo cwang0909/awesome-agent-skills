@@ -64,7 +64,7 @@ According to the standard, each Skill is a standardized named folder that combin
 - [@白白说大模型: Stop Building Agents, The Future is Skills](https://www.youtube.com/watch?v=xeoWgfkxADI)
 - [@01Coder: Building a High-Quality Intelligent Dev Environment with OpenCode + GLM + Agent Skills](https://www.youtube.com/watch?v=mGzY2bCoVhU)
 
-## Official Support
+## Programming Tools
 
 The Agent Skills open standard has been adopted by leading AI companies including OpenAI, Google, Microsoft, and Cursor, quickly becoming standard in mainstream AI programming tools.
 
@@ -87,6 +87,14 @@ To install Agent Skills, simply place the Skill folder in the appropriate path. 
 | **OpenCode**       | `.opencode/skills/` | `~/.config/opencode/skills/`    | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
 | **Roo Code**       | `.roo/skills/`      | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
 | **Windsurf**       | `.windsurf/skills/` | `~/.codeium/windsurf/skills/`   | [Windsurf Cascade Skills](https://docs.windsurf.com/windsurf/cascade/skills)                |
+
+## Conversational Tools
+
+As the Agent Skills standard becomes more widespread, an increasing number of conversational AI tools are starting to support Skill installation and usage. Users can expand the capabilities of assistants/agents by adding Skills to handle more complex tasks.
+
+-   [Coze](https://www.coze.cn/open/docs/cozespace/what_is_skill): Skills Usage Guide
+-   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA): Agent Skills Best Practices
+-   [Alma](https://alma.now/docs/zh/features/skills.html): Skills Usage Guide
 
 ## Skills Marketplace
 

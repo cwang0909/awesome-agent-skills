@@ -64,7 +64,7 @@ Agent Skills は Anthropic が維持する[オープン標準](https://agentskil
 - [@白白说大模型: Agent を作るのはやめよう、未来は Skills だ](https://www.youtube.com/watch?v=xeoWgfkxADI)
 - [@01Coder: OpenCode + GLM + Agent Skills で高品質な知的開発環境を構築](https://www.youtube.com/watch?v=mGzY2bCoVhU)
 
-## 公式サポート
+## プログラミングツール
 
 Agent Skills オープン標準は、OpenAI、Google、Microsoft、Cursor などの主要な AI 企業に採用され、主流の AI プログラミングツールの標準機能となっています。
 
@@ -87,6 +87,14 @@ Agent Skills をインストールするには、Skill フォルダを適切な�
 | **OpenCode**       | `.opencode/skills/` | `~/.config/opencode/skills/`    | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
 | **Roo Code**       | `.roo/skills/`      | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
 | **Windsurf**       | `.windsurf/skills/` | `~/.codeium/windsurf/skills/`   | [Windsurf Cascade Skills](https://docs.windsurf.com/windsurf/cascade/skills)                |
+
+## 対話ツール
+
+Agent Skills 標準の普及に伴い、対話式 AI ツールも Skill のインストールと使用をサポートするようになってきました。ユーザーは Skill を追加することでアシスタント/エージェントの機能を拡張し、より複雑なタスク処理を実現できます。
+
+-   [Coze/扣子](https://www.coze.cn/open/docs/cozespace/what_is_skill): Skills 使用ガイド
+-   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA): Agent Skills ベストプラクティス
+-   [Alma](https://alma.now/docs/zh/features/skills.html): Skills 使用ガイド
 
 ## Skills マーケットプレイス
 

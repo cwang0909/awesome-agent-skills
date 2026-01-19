@@ -50,7 +50,6 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 
 -   [@宝玉：五步框架把 Workflow 变成可进化的 Skill](https://x.com/dotey/status/2010176124450484638)
 -   [@歸藏：带动效的 PPT 生成 Agent！使用教学&创作思路](https://x.com/op7418/status/2010979152284041401)
--   [@李不凯正在研究：Cherry Studio 中应用 Agent Skills 最佳实践](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA)
 
 ### 深度分析
 
@@ -64,7 +63,7 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 - [@白白说大模型：别再造 Agent 了，未来是Skills的](https://www.youtube.com/watch?v=xeoWgfkxADI)
 - [@01Coder：OpenCode + 智谱GLM + Agent Skills打造高质量智能开发环境](https://www.youtube.com/watch?v=mGzY2bCoVhU)
 
-## 官方支持
+## 编程工具
 
 Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI 行业领军公司的支持，迅速成为各大主流 AI 编程工具的标配。
 
@@ -87,6 +86,14 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 | **OpenCode**       | `.opencode/skills/` | `~/.config/opencode/skills/`    | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
 | **Roo Code**       | `.roo/skills/`      | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
 | **Windsurf**       | `.windsurf/skills/` | `~/.codeium/windsurf/skills/`   | [Windsurf Cascade Skills](https://docs.windsurf.com/windsurf/cascade/skills)                |
+
+## 对话工具
+
+随着 Agent Skills 标准的普及，越来越多的对话式 AI 工具也开始支持 Skill 的安装和使用，用户可以通过添加 Skill 来扩展助手/智能体的能力，实现更复杂的任务处理。
+
+-   [Coze/扣子](https://www.coze.cn/open/docs/cozespace/what_is_skill)：技能使用说明
+-   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA)：Agent Skills 最佳实践
+-   [Alma](https://alma.now/docs/zh/features/skills.html)：Skills 使用说明
 
 ## 技能商店
 
