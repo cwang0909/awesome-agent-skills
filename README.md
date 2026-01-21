@@ -26,7 +26,7 @@
 
 </div>
 
-本项目致力于收集和分享最优质的中文 Agent Skills 教程、案例和实践，欢迎通过 Issues 提交资源参与共建。
+本项目致力于收集和分享最优质的 Agent Skills 教程、案例和实践，欢迎通过 Issues 提交资源参与共建。
 
 > 欢迎关注我的 🐦‍⬛ 账号 [@李不凯正在研究](https://x.com/libukai) ，即时获取 Agent Skills 的最新资讯和实用教程！
 
@@ -43,8 +43,8 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 ### 喂饭教程
 
 -   [@一泽 Eze：Agent Skills 终极指南：入门、精通、预测](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ)
--   [@数字生命卡兹克：一文带你看懂，火爆全网的 Skills 到底是个啥](https://x.com/Khazix0918/status/2010940910083940382)
 -   [@王树义：一篇文章搞懂 AI 怎么从「嘴替」升级成「打工人」](https://x.com/wshuyi/status/2009451186039214388)
+-   [@数字生命卡兹克：一文带你看懂，火爆全网的 Skills 到底是个啥](https://x.com/Khazix0918/status/2010940910083940382)
 
 ### 进阶教程
 
@@ -67,7 +67,9 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 
 Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI 行业领军公司的支持，迅速成为各大主流 AI 编程工具的标配。
 
-安装 Agent Skills，只需要将 Skill 文件夹放入对应的路径即可。也可以使用 Vercel 官方出品的 `npx skills` 命令行工具快速添加，具体参数可见 [vercel-labs/add-skill](https://github.com/vercel-labs/add-skill)。
+安装 Agent Skills，只需要将 Skill 文件夹放入对应的路径即可。也可以使用 Vercel 官方出品的 `npx skills add <owner/repo>` 命令行工具快速添加，具体参数可见 [vercel-labs/add-skill](https://github.com/vercel-labs/add-skill)。
+
+与此同时，Vercel 配套发布了 [skills.sh](https://skills.sh/) 这个 Skills 精选商店，优质编程类 Skills 可谓一网打尽。 
 
 
 | 工具               | 项目路径            | 全局路径                        | 官方文档                                                                                    |
@@ -103,6 +105,7 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 
 其他特色 Agent Skills 商店还有：
 
+-   [skills.sh](https://skills.sh/)：Vercel 出品的 Skills 精选商店
 -   [SkillStore](https://skillstore.io/zh-hans)：对 Skill 进行了安全审计的中文商店
 -   [agentskills.me](https://agentskills.me/)：提供 Skill 开发者分成机制的商店
 -   [skills.rest](https://skills.rest/)：提供 Skill 评分的商店
