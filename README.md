@@ -67,7 +67,7 @@ Agent Skills 是一个由 Anthropic 维护的 [开放标准](https://agentskills
 
 Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI 行业领军公司的支持，迅速成为各大主流 AI 编程工具的标配。
 
-安装 Agent Skills，只需要将 Skill 文件夹放入对应的路径即可。也可以使用 Vercel 官方出品的 `npx skills add <owner/repo>` 命令行工具快速添加，具体参数可见 [npmjs/skills](https://www.npmjs.com/package/skills)。
+安装 Agent Skills，只需要将 Skill 文件夹放入对应的路径即可。也可以使用 Vercel 官方出品的 `npx skills add <owner/repo>` 命令行工具快速添加，具体参数参见 [npmjs/skills](https://www.npmjs.com/package/skills)。
 
 与此同时，Vercel 配套发布了 [skills.sh](https://skills.sh/) Skills 精选商店，优质编程类 Skills 可谓一网打尽。 
 
