@@ -34,6 +34,8 @@
 
 Agent Skills 是一个由 Anthropic 牵头维护的 [开放标准](https://agentskills.io/home)，通过定义特定任务执行规范，能便捷地将个人经验转化为技能，快速构建轻量级的智能体。
 
+该标准目前已得到 Anthropic/OpenAI/Google/Microsoft/Cursor 等多家行业领军公司的支持，迅速成为各大主流 AI 工具的标配。
+
 根据标准定义，每个 Skill 都是一个规范化命名的文件夹，其中组合了 Markdown 文档、可执行脚本和其他类型素材文件。
 
 ![](assets/skills-sketch.png)
@@ -52,11 +54,31 @@ Agent Skills 是一个由 Anthropic 牵头维护的 [开放标准](https://agent
 -   [@白白说大模型：别再造 Agent 了，未来是Skills的](https://www.youtube.com/watch?v=xeoWgfkxADI)
 -   [@01Coder：OpenCode + 智谱GLM + Agent Skills打造高质量智能开发环境](https://www.youtube.com/watch?v=mGzY2bCoVhU)
 
-## 编程工具
+## 技能商店
 
-Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI 行业领军公司的支持，迅速成为各大主流 AI 编程工具的标配。
+[![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
 
-安装 Agent Skills，只需要将 Skill 文件夹放入对应的路径即可。也可以使用 Vercel 官方出品的 `npx skills add <owner/repo>` 命令行工具快速添加，具体参数参见 [npmjs/skills](https://www.npmjs.com/package/skills)。
+推荐使用 Vercel 出品的 [skills.sh](https://skills.sh/) 排行榜，可以直观查看当前最受欢迎的 Skills 仓库和单个 Skill 的使用情况。
+
+还可以辅助使用 [skillsmp](https://skillsmp.com/zh) 商店，该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行了整理。
+
+其他特色 Agent Skills 商店还有：
+
+-   [skillstore.io](https://skillstore.io/zh-hans)：对 Skill 进行了安全审计的中文商店
+-   [agentskills.me](https://agentskills.me/)：提供了云端 Skill 运行环境的商店
+-   [skills.rest](https://skills.rest/)：提供 Skill 分析和安全审查的商店
+
+## 产品使用
+
+Agent Skills 作为一套基于文件系统的跨平台标准，可以灵活地被嵌入到各种产品中使用。
+
+目前越来越多的编程工具和对话工具已经开始支持 Agent Skills 标准，相信后续还会有更多形式的使用方式出现。
+
+### 编程工具
+
+要在编程工具中安装 Agent Skills，只需要将 Skill 文件夹放入对应的路径即可。
+
+建议使用 Vercel 官方出品的 `npx skills add <owner/repo>` 命令行工具快速添加，具体参数参见 [npmjs/skills](https://www.npmjs.com/package/skills)。
 
 
 | 工具               | 项目路径             | 全局路径                        | 官方文档                                                                                    |
@@ -79,32 +101,20 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 | **Trae**           | `.trae/skills/`      | ---                             | [Trae Skills](https://docs.trae.ai/ide/skills?_lang=zh)                                     |
 | **Windsurf**       | `.windsurf/skills/`  | `~/.codeium/windsurf/skills/`   | [Windsurf Skills](https://docs.windsurf.com/windsurf/cascade/skills)                        |
 
-## 对话工具
+### 对话工具
 
-随着 Agent Skills 标准的普及，越来越多的对话式 AI 工具也开始支持 Skill 的安装和使用。用户可以通过添加 Skill 来扩展助手/智能体的能力，实现更复杂的任务处理流程。
+随着 Agent Skills 标准的普及，越来越多的对话式 AI 工具也开始支持 Skill 的安装和使用。
+
+用户可以通过添加 Skill 来扩展助手/智能体的能力，实现更复杂的任务处理流程。
 
 -   [Coze/扣子](https://www.coze.cn/open/docs/cozespace/what_is_skill)： Coze 2.0 新增技能功能使用说明
 -   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA)：在 Cherry Studio 中通过 Agent 使用 Skill 最佳实践
-
-## 技能商店
-
-[![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
-
-推荐使用 Vercel 出品的 [skills.sh](https://skills.sh/) 排行榜，可以直观查看当前最受欢迎的 Skills 仓库和单个 Skill 的使用情况。
-
-还可以辅助使用 [skillsmp](https://skillsmp.com/zh) 商店，该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行了整理。
-
-其他特色 Agent Skills 商店还有：
-
--   [skillstore.io](https://skillstore.io/zh-hans)：对 Skill 进行了安全审计的中文商店
--   [agentskills.me](https://agentskills.me/)：提供了云端 Skill 运行环境的商店
--   [skills.rest](https://skills.rest/)：提供 Skill 分析和安全审查的商店
 
 ## 精选技能
 
 ### 技能创建
 
--   [anthropics/skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator): Anthropic 官方出品用于创建 skill 的元技能，可快速创建个人专属的 skill
+-   [anthropics/skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator): Anthropic 官方出品用于创建 skill 的元技能，可快速创建和迭代个人专属的 skill
 -   [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers): 自动化抓取文档网站、GitHub 仓库和 PDF 文件转换为 Agent Skills
 
 ### 文档处理
@@ -133,7 +143,7 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 -   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): 王树义发布 X 文章的 Skill
 -   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator)：huangserva 使用 Skill 生成和优化 AI 人像文生图提示词的 Skill
 
-### 编程经验
+### 编程辅助
 
 -   [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills)：涵盖完整编程项目工作流程的 Skills 集合
 -   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)：涵盖多个编程类任务的优质 Skills 集合

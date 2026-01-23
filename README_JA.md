@@ -34,6 +34,8 @@
 
 Agent Skills は Anthropic が維持する[オープン標準](https://agentskills.io/home)です。タスク固有の実行仕様を定義することで、個人の経験を AI Skills に簡単に変換し、軽量な Personal Agent を迅速に構築できます。
 
+この標準は現在、Anthropic、OpenAI、Google、Microsoft、Cursor などの業界をリードする企業に採用され、主流の AI ツールの標準機能となっています。
+
 標準の定義によれば、各 Skill は標準化された命名のフォルダで、Markdown ドキュメント、実行可能スクリプト、その他の素材ファイルを組み合わせたものです。
 
 ![](assets/skills-sketch.png)
@@ -52,11 +54,31 @@ Agent Skills は Anthropic が維持する[オープン標準](https://agentskil
 -   [@白白说大模型: Agent を作るのはやめよう、未来は Skills だ](https://www.youtube.com/watch?v=xeoWgfkxADI)
 -   [@01Coder: OpenCode + GLM + Agent Skills で高品質な知的開発環境を構築](https://www.youtube.com/watch?v=mGzY2bCoVhU)
 
-## プログラミングツール
+## Skills マーケットプレイス
 
-Agent Skills オープン標準は、OpenAI、Google、Microsoft、Cursor などの主要な AI 企業に採用され、主流の AI プログラミングツールの標準機能となっています。
+[![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
 
-Agent Skills をインストールするには、Skill フォルダを適切なパスに配置するだけです。Vercel 公式の `npx skills add <owner/repo>` コマンドラインツールを使用して迅速にインストールすることもできます。パラメータについては [npmjs/skills](https://www.npmjs.com/package/skills) を参照してください。
+Vercel 公式の [skills.sh](https://skills.sh/) ランキングボードの使用を推奨します。最も人気のある Skills リポジトリと個別 Skill の使用状況を直感的に確認できます。
+
+また、[skillsmp](https://skillsmp.com/zh) マーケットプレイスを補助的に使用できます。このマーケットプレイスは GitHub 上のすべての Skills プロジェクトを自動的にインデックス化し、カテゴリ、更新時間、スター数などのタグで整理しています。
+
+その他の特徴的な Agent Skills マーケットプレイス:
+
+-   [skillstore.io](https://skillstore.io/zh-hans): セキュリティ監査済み Skill を提供する中国語マーケットプレイス
+-   [agentskills.me](https://agentskills.me/): クラウドベースの Skill 実行環境を提供するマーケットプレイス
+-   [skills.rest](https://skills.rest/): Skill 分析とセキュリティレビューを提供するマーケットプレイス
+
+## 製品利用
+
+Agent Skills はファイルシステムベースのクロスプラットフォーム標準として、様々な製品に柔軟に組み込むことができます。
+
+現在、ますます多くのプログラミングツールと対話ツールが Agent Skills 標準をサポートし始めており、今後さらに多様な利用方法が登場すると考えられます。
+
+### プログラミングツール
+
+プログラミングツールに Agent Skills をインストールするには、Skill フォルダを適切なパスに配置するだけです。
+
+Vercel 公式の `npx skills add <owner/repo>` コマンドラインツールを使用して迅速にインストールすることを推奨します。パラメータについては [npmjs/skills](https://www.npmjs.com/package/skills) を参照してください。
 
 
 | ツール             | プロジェクトパス     | グローバルパス                  | ドキュメント                                                                                |
@@ -79,32 +101,19 @@ Agent Skills をインストールするには、Skill フォルダを適切な�
 | **Trae**           | `.trae/skills/`      | ---                             | [Trae Skills](https://docs.trae.ai/ide/skills?_lang=zh)                                     |
 | **Windsurf**       | `.windsurf/skills/`  | `~/.codeium/windsurf/skills/`   | [Windsurf Skills](https://docs.windsurf.com/windsurf/cascade/skills)                        |
 
-## 対話ツール
+### 対話ツール
 
 Agent Skills 標準の普及に伴い、対話式 AI ツールも Skill のインストールと使用をサポートするようになってきました。ユーザーは Skill を追加することでアシスタント/エージェントの機能を拡張し、より複雑なタスク処理を実現できます。
 
 -   [Coze/扣子](https://www.coze.cn/open/docs/cozespace/what_is_skill): Coze 2.0 新しいスキル機能の使用説明
 -   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA): Cherry Studio で Agent を通じて Skill を使用するベストプラクティス
 
-## Skills マーケットプレイス
-
-[![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
-
-Vercel 公式の [skills.sh](https://skills.sh/) ランキングボードの使用を推奨します。最も人気のある Skills リポジトリと個別 Skill の使用状況を直感的に確認できます。
-
-また、[skillsmp](https://skillsmp.com/zh) マーケットプレイスを補助的に使用できます。このマーケットプレイスは GitHub 上のすべての Skills プロジェクトを自動的にインデックス化し、カテゴリ、更新時間、スター数などのタグで整理しています。
-
-その他の特徴的な Agent Skills マーケットプレイス:
-
--   [skillstore.io](https://skillstore.io/zh-hans): セキュリティ監査済み Skill を提供する中国語マーケットプレイス
--   [agentskills.me](https://agentskills.me/): クラウドベースの Skill 実行環境を提供するマーケットプレイス
--   [skills.rest](https://skills.rest/): Skill 分析とセキュリティレビューを提供するマーケットプレイス
-
 ## 厳選 Skills
 
 ### Skill 作成
 
 -   [anthropics/skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator): Anthropic 公式の Skill 作成用メタスキル。個人カスタム Skill を迅速に作成可能
+-   [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers): ドキュメントサイト、GitHub リポジトリ、PDF ファイルを Agent Skills に自動変換
 
 ### ドキュメント処理
 
@@ -132,7 +141,7 @@ Vercel 公式の [skills.sh](https://skills.sh/) ランキングボードの使�
 -   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): Wang Shuyi の X 記事公開用 Skill
 -   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator): Huangserva の AI ポートレートテキスト to 画像プロンプトの生成と最適化 Skill
 
-### プログラミング経験
+### プログラミング補助
 
 -   [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills): 完全なプログラミングプロジェクトワークフローをカバーする Skills コレクション
 -   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): 複数のプログラミングタスクをカバーする高品質 Skills コレクション
@@ -152,7 +161,6 @@ Vercel 公式の [skills.sh](https://skills.sh/) ランキングボードの使�
 
 ## サポートツール
 
--   [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers): ドキュメントサイト、GitHub リポジトリ、PDF ファイルを Agent Skills に自動変換
 -   [openskills](https://github.com/numman-ali/openskills): 複数の Agent プラットフォームをサポートするグローバル Skills ローディングツール
 -   [skild.sh](https://skild.sh/): 複数のツールで Skills をインストール、管理、同期するための CLI ツール
 -   [agent-skills-guard](https://github.com/brucevanfdm/agent-skills-guard): Agent Skills の視覚的管理 + 厳選リポジトリ + セキュリティスキャン

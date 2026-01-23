@@ -34,6 +34,8 @@ This project is dedicated to collecting and sharing the finest Skills tutorials,
 
 Agent Skills is an [open standard](https://agentskills.io/home) maintained by Anthropic. By defining task-specific execution specifications, it enables convenient transformation of personal experience into AI Skills, allowing rapid construction of lightweight Personal Agents.
 
+This standard has been adopted by leading AI companies including Anthropic, OpenAI, Google, Microsoft, and Cursor, quickly becoming standard in mainstream AI tools.
+
 According to the standard, each Skill is a standardized named folder that combines Markdown documents, executable scripts, and other material files.
 
 ![](assets/skills-sketch.png)
@@ -52,11 +54,31 @@ According to the standard, each Skill is a standardized named folder that combin
 -   [@白白说大模型: Stop Building Agents, The Future is Skills](https://www.youtube.com/watch?v=xeoWgfkxADI)
 -   [@01Coder: Building a High-Quality Intelligent Dev Environment with OpenCode + GLM + Agent Skills](https://www.youtube.com/watch?v=mGzY2bCoVhU)
 
-## Programming Tools
+## Skills Marketplace
 
-The Agent Skills open standard has been adopted by leading AI companies including OpenAI, Google, Microsoft, and Cursor, quickly becoming standard in mainstream AI programming tools.
+[![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
 
-To install Agent Skills, simply place the Skill folder in the appropriate path. You can also use the `npx skills add <owner/repo>` CLI tool from Vercel for quick installation. For parameters, see [npmjs/skills](https://www.npmjs.com/package/skills).
+It is recommended to use Vercel's [skills.sh](https://skills.sh/) leaderboard, which provides an intuitive view of the most popular Skills repositories and individual Skill usage.
+
+Additionally, you can use the [skillsmp](https://skillsmp.com/zh) marketplace, which automatically indexes all Skills projects on GitHub and organizes them by category, update time, star count, and other tags.
+
+Other featured Agent Skills marketplaces:
+
+-   [skillstore.io](https://skillstore.io/zh-hans): Chinese marketplace with security-audited Skills
+-   [agentskills.me](https://agentskills.me/): Marketplace offering cloud-based Skill runtime environments
+-   [skills.rest](https://skills.rest/): Marketplace providing Skill analysis and security reviews
+
+## Product Usage
+
+Agent Skills is a cross-platform standard based on the file system, allowing flexible integration into various products.
+
+An increasing number of programming tools and conversational tools are now supporting the Agent Skills standard, with more usage scenarios expected to emerge.
+
+### Programming Tools
+
+To install Agent Skills in programming tools, simply place the Skill folder in the appropriate path.
+
+It is recommended to use Vercel's official `npx skills add <owner/repo>` CLI tool for quick installation. For parameters, see [npmjs/skills](https://www.npmjs.com/package/skills).
 
 
 | Tool               | Project Path         | Global Path                     | Documentation                                                                               |
@@ -79,32 +101,19 @@ To install Agent Skills, simply place the Skill folder in the appropriate path. 
 | **Trae**           | `.trae/skills/`      | ---                             | [Trae Skills](https://docs.trae.ai/ide/skills?_lang=zh)                                     |
 | **Windsurf**       | `.windsurf/skills/`  | `~/.codeium/windsurf/skills/`   | [Windsurf Skills](https://docs.windsurf.com/windsurf/cascade/skills)                        |
 
-## Conversational Tools
+### Conversational Tools
 
 As the Agent Skills standard becomes more widespread, an increasing number of conversational AI tools are starting to support Skill installation and usage. Users can expand the capabilities of assistants/agents by adding Skills to handle more complex tasks.
 
 -   [Coze/扣子](https://www.coze.cn/open/docs/cozespace/what_is_skill): Coze 2.0 new skill function usage instructions
 -   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA): Best practices for using Skills through Agents in Cherry Studio
 
-## Skills Marketplace
-
-[![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
-
-It is recommended to use Vercel's [skills.sh](https://skills.sh/) leaderboard, which provides an intuitive view of the most popular Skills repositories and individual Skill usage.
-
-Additionally, you can use the [skillsmp](https://skillsmp.com/zh) marketplace, which automatically indexes all Skills projects on GitHub and organizes them by category, update time, star count, and other tags.
-
-Other featured Agent Skills marketplaces:
-
--   [skillstore.io](https://skillstore.io/zh-hans): Chinese marketplace with security-audited Skills
--   [agentskills.me](https://agentskills.me/): Marketplace offering cloud-based Skill runtime environments
--   [skills.rest](https://skills.rest/): Marketplace providing Skill analysis and security reviews
-
 ## Featured Skills
 
 ### Skill Creation
 
 -   [anthropics/skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator): Official meta-skill from Anthropic for creating skills, enabling rapid creation of personal custom skills
+-   [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers): Automated conversion of documentation sites, GitHub repos, and PDFs into Agent Skills
 
 ### Document Processing
 
@@ -132,7 +141,7 @@ Other featured Agent Skills marketplaces:
 -   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): Wang Shuyi's Skill for publishing X articles
 -   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator): Huangserva's Skill for generating and optimizing AI portrait text-to-image prompts
 
-### Programming Experience
+### Programming Assistance
 
 -   [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills): Skills collection covering complete programming project workflows
 -   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): Quality Skills collection covering multiple programming tasks
@@ -152,7 +161,6 @@ Other featured Agent Skills marketplaces:
 
 ## Supporting Tools
 
--   [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers): Automated conversion of documentation sites, GitHub repos, and PDFs into Agent Skills
 -   [openskills](https://github.com/numman-ali/openskills): Global Skills loading tool supporting multiple Agent platforms
 -   [skild.sh](https://skild.sh/): CLI tool for installing, managing, and syncing Skills across multiple tools
 -   [agent-skills-guard](https://github.com/brucevanfdm/agent-skills-guard): Agent Skills visualization management + curated repo + security scanning
