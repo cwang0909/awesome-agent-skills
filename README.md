@@ -113,30 +113,38 @@ Agent Skills 开放标准已得到 OpenAI/Google/Microsoft/Cursor 等多家 AI �
 -   [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)：创建和编辑 Excel 的 Skill
 -   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)：创建和编辑 PDF 的 Skill
 
+### 官方项目
+
+-   [anthropics/skills](https://github.com/anthropics/skills)：Anthropic 出品的 Skills 集合
+-   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)：Vercel 出品的 React Skills 集合
+-   [expo/skills](https://github.com/expo/skills)：Expo 出品的 React Native Skills 集合
+-   [supabase/agent-skills](https://github.com/supabase/agent-skills)：Supabase 出品的 PostgreSQL 最佳实践
+-   [remotion-dev/skills](https://github.com/remotion-dev/skills)：Remotion 出品的使用 Remotion 创建视频内容 
+-   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills)：Dify 出品的多功能 Skills 集合
+-   [huggingface/skills](https://github.com/huggingface/skills)：HuggingFace 出品使用 Skill 训练大模型
+-   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)：Obsidian CEO 出品增强 Obsidian 功能的 Skills 集合
+
+
 ### 内容创作
 
--   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉老师的自用 SKills 集合，包括公众号写作、PPT 制作等功能
--   [op7418/NanoBanana-PPT-Skills)](https://github.com/op7418/NanoBanana-PPT-Skills)：歸藏制作的基于 NanoBanana 生成 PPT 的 Skill
--   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): 王树义老师发布 X 文章的 Skill
--   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator)：黄佬使用 Skill 生成和优化文生图提示词
+-   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills)：宝玉的自用 SKills 集合，包括公众号写作、PPT 制作等
+-   [github.com/op7418)](https://github.com/op7418?tab=repositories)：歸藏制作的一系列 Skills 集合，包括 PPT 制作、Youtube 分析等
+-   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): 王树义发布 X 文章的 Skill
+-   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator)：huangserva 使用 Skill 生成和优化 AI 人像文生图提示词的 Skill
 
-### 编程辅助
+### 编程经验
 
--   [anthropics/skills](https://github.com/anthropics/skills)：Anthropic 官方 Skills 集合
--   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)：Vercel 官方出品的编程 React Skills 集合
--   [hyf0/vue-skills](https://github.com/hyf0/vue-skills)：面向 Vue.js 开发的 Skills 集合
 -   [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills)：涵盖完整编程项目工作流程的 Skills 集合
 -   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)：涵盖多个编程类任务的优质 Skills 集合
 -   [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)：面向 UI/UX 设计的 Skills 集合
 -   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)：使用文件规划实现长期 Plan 效果的 Skill
+-   [hyf0/vue-skills](https://github.com/hyf0/vue-skills)：面向 Vue.js 开发的 Skills 集合
 
 ### 产品使用
 
 -   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py)：操控 NotebookLM 的 Skill
--   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills)：Dify 官方出品的多功能 Skills 集合
 -   [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills)：创建 n8n 工作流的 Skills 集合
--   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)：增强 Obsidian 功能的 Skills 集合
--   [huggingface/skills](https://github.com/huggingface/skills)：使用 Skill 在 HuggingFace 训练大模型
+-   [cloudai-x/threejs-skills](https://github.com/cloudai-x/threejs-skills)： 面向 Three.js 开发的 Skills 集合
 
 ### 其他类型
 

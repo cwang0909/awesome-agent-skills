@@ -40,29 +40,17 @@ According to the standard, each Skill is a standardized named folder that combin
 
 ## Tutorial Collection
 
-### Beginner Tutorials
+### Graphic Tutorials
 
 -   [@一泽 Eze: Ultimate Guide to Agent Skills: Getting Started, Mastering, and Predictions](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ)
--   [@数字生命卡兹克: A Complete Guide to Understanding What Skills Really Are](https://x.com/Khazix0918/status/2010940910083940382)
--   [@王树义: How AI Upgrades from "Mouthpiece" to "Worker"](https://x.com/wshuyi/status/2009451186039214388)
-
-### Advanced Tutorials
-
--   [@宝玉: Five-Step Framework to Transform Workflows into Evolvable Skills](https://x.com/dotey/status/2010176124450484638)
--   [@歸藏: Animated PPT Generation Agent! Tutorial & Creative Ideas](https://x.com/op7418/status/2010979152284041401)
--   [@李不凯正在研究: Best Practices for Using Agent Skills in Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA)
-
-### In-Depth Analysis
-
--   [@凡人小北: Everyone's Teaching How to Write Skills, But You Might Be Repeating MCP's Mistakes](https://x.com/frxiaobei/status/2011075599083995566)
 -   [@deeptoai: First Principles Deep Dive into Claude Agent Skills](https://skills.deeptoai.com/zh/docs/ai-ml/claude-agent-skills-first-principles-deep-dive)
--   [@宝玉: Claude Code's "Lazy Loading" Update: AI Finally Learns "On-Demand"](https://x.com/dotey/status/2011660434516873264)
+-   [@歸藏: Animated PPT Generation Agent! Tutorial & Creative Ideas](https://x.com/op7418/status/2010979152284041401)
 
 ### Video Tutorials
 
-- [@马克的技术工作坊: Agent Skills from Usage to Principles, Explained Once and For All](https://www.youtube.com/watch?v=yDc0_8emz7M)
-- [@白白说大模型: Stop Building Agents, The Future is Skills](https://www.youtube.com/watch?v=xeoWgfkxADI)
-- [@01Coder: Building a High-Quality Intelligent Dev Environment with OpenCode + GLM + Agent Skills](https://www.youtube.com/watch?v=mGzY2bCoVhU)
+-   [@马克的技术工作坊: Agent Skills from Usage to Principles, Explained Once and For All](https://www.youtube.com/watch?v=yDc0_8emz7M)
+-   [@白白说大模型: Stop Building Agents, The Future is Skills](https://www.youtube.com/watch?v=xeoWgfkxADI)
+-   [@01Coder: Building a High-Quality Intelligent Dev Environment with OpenCode + GLM + Agent Skills](https://www.youtube.com/watch?v=mGzY2bCoVhU)
 
 ## Programming Tools
 
@@ -70,46 +58,47 @@ The Agent Skills open standard has been adopted by leading AI companies includin
 
 To install Agent Skills, simply place the Skill folder in the appropriate path. You can also use the `npx skills add <owner/repo>` CLI tool from Vercel for quick installation. For parameters, see [npmjs/skills](https://www.npmjs.com/package/skills).
 
-Meanwhile, Vercel has released the companion [skills.sh](https://skills.sh/) Skills marketplace, featuring a comprehensive collection of quality programming Skills.
 
-
-| Tool               | Project Path        | Global Path                     | Documentation                                                                               |
-| ------------------ | ------------------- | ------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Amp**            | `.agents/skills/`   | `~/.config/agents/skills/`      | [Amp Skills](https://ampcode.com/manual#agent-skills)                                       |
-| **Antigravity**    | `.agent/skills/`    | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills)                                |
-| **Clawdbot**       | `./skills/`         | `~/.clawdbot/skills/`           | [Clawdbot Skills](https://docs.clawd.bot/tools/skills)                                      |
-| **Claude Code**    | `.claude/skills/`   | `~/.claude/skills/`             | [Claude Code Skills](https://code.claude.com/docs/en/skills)                                |
-| **Codex**          | `.codex/skills/`    | `~/.codex/skills/`              | [Codex Skills](https://developers.openai.com/codex/skills)                                  |
-| **Cursor**         | `.cursor/skills/`   | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/docs/context/skills)                                     |
-| **Droid/Factory**  | `.factory/skills/`  | `~/.factory/skills/`            | [Factory Droid Skills](https://docs.factory.ai/cli/configuration/skills)                    |
-| **Gemini CLI**     | `.gemini/skills/`   | `~/.gemini/skills/`             | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/)                                 |
-| **GitHub Copilot** | `.github/skills/`   | `~/.copilot/skills/`            | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)     |
-| **Goose**          | `.goose/skills/`    | `~/.config/goose/skills/`       | [Goose Skills](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
-| **Kilo Code**      | `.kilocode/skills/` | `~/.kilocode/skills/`           | [Kilo Skills](https://kilo.ai/docs/agent-behavior/skills)                                   |
-| **OpenCode**       | `.opencode/skills/` | `~/.config/opencode/skills/`    | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
-| **Roo Code**       | `.roo/skills/`      | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
-| **Windsurf**       | `.windsurf/skills/` | `~/.codeium/windsurf/skills/`   | [Windsurf Cascade Skills](https://docs.windsurf.com/windsurf/cascade/skills)                |
+| Tool               | Project Path         | Global Path                     | Documentation                                                                               |
+| ------------------ | -------------------- | ------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Amp**            | `.agents/skills/`    | `~/.config/agents/skills/`      | [Amp Skills](https://ampcode.com/manual#agent-skills)                                       |
+| **Antigravity**    | `.agent/skills/`     | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills)                                |
+| **Claude Code**    | `.claude/skills/`    | `~/.claude/skills/`             | [Claude Code Skills](https://code.claude.com/docs/en/skills)                                |
+| **Codex**          | `.codex/skills/`     | `~/.codex/skills/`              | [Codex Skills](https://developers.openai.com/codex/skills)                                  |
+| **Cursor**         | `.cursor/skills/`    | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/docs/context/skills)                                     |
+| **CodeBuddy**      | `.codebuddy/skills/` | `~/.codebuddy/skills/`          | [Codebuddy Skills](https://copilot.tencent.com/docs/cli/skills)                             |
+| **Droid/Factory**  | `.factory/skills/`   | `~/.factory/skills/`            | [Factory Droid Skills](https://docs.factory.ai/cli/configuration/skills)                    |
+| **Gemini CLI**     | `.gemini/skills/`    | `~/.gemini/skills/`             | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/)                                 |
+| **GitHub Copilot** | `.github/skills/`    | `~/.copilot/skills/`            | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)     |
+| **Goose**          | `.goose/skills/`     | `~/.config/goose/skills/`       | [Goose Skills](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
+| **Kilo Code**      | `.kilocode/skills/`  | `~/.kilocode/skills/`           | [Kilo Skills](https://kilo.ai/docs/agent-behavior/skills)                                   |
+| **Kimi CLI**       | `.kimi/skills/`      | `~/.kimi/skills`                | [Kimi CLI Skills](https://moonshotai.github.io/kimi-cli/zh/customization/skills.html)       |
+| **OpenCode**       | `.opencode/skills/`  | `~/.config/opencode/skills/`    | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
+| **Qwen Code**      | `.qwen/skills/`      | `~/.qwen/skills/`               | [Qwen Code Skills](https://qwenlm.github.io/qwen-code-docs/zh/users/features/skills/)       |
+| **Roo Code**       | `.roo/skills/`       | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
+| **Trae**           | `.trae/skills/`      | ---                             | [Trae Skills](https://docs.trae.ai/ide/skills?_lang=zh)                                     |
+| **Windsurf**       | `.windsurf/skills/`  | `~/.codeium/windsurf/skills/`   | [Windsurf Skills](https://docs.windsurf.com/windsurf/cascade/skills)                        |
 
 ## Conversational Tools
 
 As the Agent Skills standard becomes more widespread, an increasing number of conversational AI tools are starting to support Skill installation and usage. Users can expand the capabilities of assistants/agents by adding Skills to handle more complex tasks.
 
--   [Coze](https://www.coze.cn/open/docs/cozespace/what_is_skill): Skills Usage Guide
--   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA): Agent Skills Best Practices
--   [Alma](https://alma.now/docs/zh/features/skills.html): Skills Usage Guide
+-   [Coze/扣子](https://www.coze.cn/open/docs/cozespace/what_is_skill): Coze 2.0 new skill function usage instructions
+-   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA): Best practices for using Skills through Agents in Cherry Studio
 
 ## Skills Marketplace
 
 [![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
 
-[skillsmp](https://skillsmp.com/zh) is currently the most comprehensive and frequently updated Skills marketplace. It automatically indexes all Skills projects on GitHub and organizes them by category, update time, star count, and other tags.
+It is recommended to use Vercel's [skills.sh](https://skills.sh/) leaderboard, which provides an intuitive view of the most popular Skills repositories and individual Skill usage.
+
+Additionally, you can use the [skillsmp](https://skillsmp.com/zh) marketplace, which automatically indexes all Skills projects on GitHub and organizes them by category, update time, star count, and other tags.
 
 Other featured Agent Skills marketplaces:
 
--   [skills.sh](https://skills.sh/): Curated Skills marketplace from Vercel
--   [SkillStore](https://skillstore.io/zh-hans): Chinese marketplace with security-audited Skills
--   [agentskills.me](https://agentskills.me/): Marketplace offering developer revenue sharing
--   [skills.rest](https://skills.rest/): Marketplace with Skill rating system
+-   [skillstore.io](https://skillstore.io/zh-hans): Chinese marketplace with security-audited Skills
+-   [agentskills.me](https://agentskills.me/): Marketplace offering cloud-based Skill runtime environments
+-   [skills.rest](https://skills.rest/): Marketplace providing Skill analysis and security reviews
 
 ## Featured Skills
 
@@ -119,34 +108,43 @@ Other featured Agent Skills marketplaces:
 
 ### Document Processing
 
--   [docx](https://github.com/anthropics/skills/tree/main/skills/docx): Create, edit, and analyze Word documents with support for revisions, comments, format preservation, and text extraction
--   [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx): Create, edit, and analyze PowerPoint presentations with support for layouts, templates, charts, and automatic slide generation
--   [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx): Create, edit, and analyze Excel spreadsheets with support for formulas, formatting, data analysis, and visualization
--   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf): Comprehensive PDF toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms
+-   [docx](https://github.com/anthropics/skills/tree/main/skills/docx): Skill for creating and editing Word documents
+-   [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx): Skill for creating and editing PowerPoint presentations
+-   [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx): Skill for creating and editing Excel spreadsheets
+-   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf): Skill for creating and editing PDFs
+
+### Official Projects
+
+-   [anthropics/skills](https://github.com/anthropics/skills): Skills collection from Anthropic
+-   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills): React Skills collection from Vercel
+-   [expo/skills](https://github.com/expo/skills): React Native Skills collection from Expo
+-   [supabase/agent-skills](https://github.com/supabase/agent-skills): PostgreSQL best practices from Supabase
+-   [remotion-dev/skills](https://github.com/remotion-dev/skills): Create video content using Remotion
+-   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills): Multi-functional Skills collection from Dify
+-   [huggingface/skills](https://github.com/huggingface/skills): Skills for training large models from HuggingFace
+-   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills): Skills collection for enhancing Obsidian functionality from Obsidian CEO
+
 
 ### Content Creation
 
--   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills): Personal Skills collection from Baoyu, including WeChat Official Account writing, PPT creation, and more
--   [op7418/NanoBanana-PPT-Skills)](https://github.com/op7418/NanoBanana-PPT-Skills): NanoBanana-based PPT generation Skill by Guizang
--   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): Skill for publishing X articles
--   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator): Generate and optimize text-to-image prompts using Skills
+-   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills): Baoyu's personal Skills collection, including WeChat Official Account writing, PPT creation, etc.
+-   [github.com/op7418)](https://github.com/op7418?tab=repositories): A series of Skills collections by Guizang, including PPT creation, YouTube analysis, etc.
+-   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): Wang Shuyi's Skill for publishing X articles
+-   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator): Huangserva's Skill for generating and optimizing AI portrait text-to-image prompts
 
-### Programming Assistance
+### Programming Experience
 
--   [anthropics/skills](https://github.com/anthropics/skills): Official Skills collection from Anthropic
--   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills): Official programming Skills collection from Vercel
 -   [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills): Skills collection covering complete programming project workflows
--   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): Quality Skills collection for various programming tasks
+-   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): Quality Skills collection covering multiple programming tasks
 -   [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): Skills collection for UI/UX design
--   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files): Skill for achieving long-term planning with file-based planning
+-   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files): Skill for achieving long-term Plan effects using file planning
+-   [hyf0/vue-skills](https://github.com/hyf0/vue-skills): Skills collection for Vue.js development
 
 ### Product Usage
 
 -   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py): Skill for controlling NotebookLM
--   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills): Official multi-functional Skills collection from Dify
 -   [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills): Skills collection for creating n8n workflows
--   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills): Skills collection for enhancing Obsidian functionality
--   [huggingface/skills](https://github.com/huggingface/skills): Use Skills to train large models on HuggingFace
+-   [cloudai-x/threejs-skills](https://github.com/cloudai-x/threejs-skills): Skills collection for Three.js development
 
 ### Other Types
 

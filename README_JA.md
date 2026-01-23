@@ -40,29 +40,17 @@ Agent Skills は Anthropic が維持する[オープン標準](https://agentskil
 
 ## チュートリアル集
 
-### 初心者向けチュートリアル
+### 図文チュートリアル
 
 -   [@一泽 Eze: Agent Skills 究極ガイド: 入門、マスター、予測](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ)
--   [@数字生命卡兹克: ネット上で話題の Skills を完全理解する](https://x.com/Khazix0918/status/2010940910083940382)
--   [@王树义: AI が「代弁者」から「労働者」へアップグレードする方法](https://x.com/wshuyi/status/2009451186039214388)
-
-### 上級チュートリアル
-
--   [@宝玉: Workflow を進化可能な Skill に変える 5 ステップフレームワーク](https://x.com/dotey/status/2010176124450484638)
--   [@歸藏: アニメーション付き PPT 生成 Agent! 使い方とクリエイティブアイデア](https://x.com/op7418/status/2010979152284041401)
--   [@李不凯正在研究: Cherry Studio での Agent Skills 活用のベストプラクティス](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA)
-
-### 詳細分析
-
--   [@凡人小北: みんな Skill の書き方を教えているが、MCP の間違いを繰り返しているかもしれない](https://x.com/frxiaobei/status/2011075599083995566)
 -   [@deeptoai: Claude Agent Skills 第一原理による詳細解析](https://skills.deeptoai.com/zh/docs/ai-ml/claude-agent-skills-first-principles-deep-dive)
--   [@宝玉: Claude Code の「遅延ロード」アップデート: AI がついに「オンデマンド」を学習](https://x.com/dotey/status/2011660434516873264)
+-   [@歸藏: アニメーション付き PPT 生成 Agent! 使い方とクリエイティブアイデア](https://x.com/op7418/status/2010979152284041401)
 
 ### ビデオチュートリアル
 
-- [@马克的技术工作坊: Agent Skill の使い方から原理まで一度に解説](https://www.youtube.com/watch?v=yDc0_8emz7M)
-- [@白白说大模型: Agent を作るのはやめよう、未来は Skills だ](https://www.youtube.com/watch?v=xeoWgfkxADI)
-- [@01Coder: OpenCode + GLM + Agent Skills で高品質な知的開発環境を構築](https://www.youtube.com/watch?v=mGzY2bCoVhU)
+-   [@马克的技术工作坊: Agent Skill の使い方から原理まで一度に解説](https://www.youtube.com/watch?v=yDc0_8emz7M)
+-   [@白白说大模型: Agent を作るのはやめよう、未来は Skills だ](https://www.youtube.com/watch?v=xeoWgfkxADI)
+-   [@01Coder: OpenCode + GLM + Agent Skills で高品質な知的開発環境を構築](https://www.youtube.com/watch?v=mGzY2bCoVhU)
 
 ## プログラミングツール
 
@@ -70,46 +58,47 @@ Agent Skills オープン標準は、OpenAI、Google、Microsoft、Cursor など
 
 Agent Skills をインストールするには、Skill フォルダを適切なパスに配置するだけです。Vercel 公式の `npx skills add <owner/repo>` コマンドラインツールを使用して迅速にインストールすることもできます。パラメータについては [npmjs/skills](https://www.npmjs.com/package/skills) を参照してください。
 
-同時に、Vercel は配套の [skills.sh](https://skills.sh/) Skills 精選ストアをリリースしました。高品質なプログラミング Skills を網羅しています。
 
-
-| ツール             | プロジェクトパス    | グローバルパス                  | ドキュメント                                                                                |
-| ------------------ | ------------------- | ------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Amp**            | `.agents/skills/`   | `~/.config/agents/skills/`      | [Amp Skills](https://ampcode.com/manual#agent-skills)                                       |
-| **Antigravity**    | `.agent/skills/`    | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills)                                |
-| **Clawdbot**       | `./skills/`         | `~/.clawdbot/skills/`           | [Clawdbot Skills](https://docs.clawd.bot/tools/skills)                                      |
-| **Claude Code**    | `.claude/skills/`   | `~/.claude/skills/`             | [Claude Code Skills](https://code.claude.com/docs/en/skills)                                |
-| **Codex**          | `.codex/skills/`    | `~/.codex/skills/`              | [Codex Skills](https://developers.openai.com/codex/skills)                                  |
-| **Cursor**         | `.cursor/skills/`   | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/docs/context/skills)                                     |
-| **Droid/Factory**  | `.factory/skills/`  | `~/.factory/skills/`            | [Factory Droid Skills](https://docs.factory.ai/cli/configuration/skills)                    |
-| **Gemini CLI**     | `.gemini/skills/`   | `~/.gemini/skills/`             | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/)                                 |
-| **GitHub Copilot** | `.github/skills/`   | `~/.copilot/skills/`            | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)     |
-| **Goose**          | `.goose/skills/`    | `~/.config/goose/skills/`       | [Goose Skills](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
-| **Kilo Code**      | `.kilocode/skills/` | `~/.kilocode/skills/`           | [Kilo Skills](https://kilo.ai/docs/agent-behavior/skills)                                   |
-| **OpenCode**       | `.opencode/skills/` | `~/.config/opencode/skills/`    | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
-| **Roo Code**       | `.roo/skills/`      | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
-| **Windsurf**       | `.windsurf/skills/` | `~/.codeium/windsurf/skills/`   | [Windsurf Cascade Skills](https://docs.windsurf.com/windsurf/cascade/skills)                |
+| ツール             | プロジェクトパス     | グローバルパス                  | ドキュメント                                                                                |
+| ------------------ | -------------------- | ------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Amp**            | `.agents/skills/`    | `~/.config/agents/skills/`      | [Amp Skills](https://ampcode.com/manual#agent-skills)                                       |
+| **Antigravity**    | `.agent/skills/`     | `~/.gemini/antigravity/skills/` | [Antigravity Skills](https://antigravity.google/docs/skills)                                |
+| **Claude Code**    | `.claude/skills/`    | `~/.claude/skills/`             | [Claude Code Skills](https://code.claude.com/docs/en/skills)                                |
+| **Codex**          | `.codex/skills/`     | `~/.codex/skills/`              | [Codex Skills](https://developers.openai.com/codex/skills)                                  |
+| **Cursor**         | `.cursor/skills/`    | `~/.cursor/skills/`             | [Cursor Skills](https://cursor.com/docs/context/skills)                                     |
+| **CodeBuddy**      | `.codebuddy/skills/` | `~/.codebuddy/skills/`          | [Codebuddy Skills](https://copilot.tencent.com/docs/cli/skills)                             |
+| **Droid/Factory**  | `.factory/skills/`   | `~/.factory/skills/`            | [Factory Droid Skills](https://docs.factory.ai/cli/configuration/skills)                    |
+| **Gemini CLI**     | `.gemini/skills/`    | `~/.gemini/skills/`             | [Gemini CLI Skills](https://geminicli.com/docs/cli/skills/)                                 |
+| **GitHub Copilot** | `.github/skills/`    | `~/.copilot/skills/`            | [Copilot Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)     |
+| **Goose**          | `.goose/skills/`     | `~/.config/goose/skills/`       | [Goose Skills](https://block.github.io/goose/docs/guides/context-engineering/using-skills/) |
+| **Kilo Code**      | `.kilocode/skills/`  | `~/.kilocode/skills/`           | [Kilo Skills](https://kilo.ai/docs/agent-behavior/skills)                                   |
+| **Kimi CLI**       | `.kimi/skills/`      | `~/.kimi/skills`                | [Kimi CLI Skills](https://moonshotai.github.io/kimi-cli/zh/customization/skills.html)       |
+| **OpenCode**       | `.opencode/skills/`  | `~/.config/opencode/skills/`    | [OpenCode Skills](https://opencode.ai/docs/skills)                                          |
+| **Qwen Code**      | `.qwen/skills/`      | `~/.qwen/skills/`               | [Qwen Code Skills](https://qwenlm.github.io/qwen-code-docs/zh/users/features/skills/)       |
+| **Roo Code**       | `.roo/skills/`       | `~/.roo/skills/`                | [Roo Code Skills](https://docs.roocode.com/features/skills)                                 |
+| **Trae**           | `.trae/skills/`      | ---                             | [Trae Skills](https://docs.trae.ai/ide/skills?_lang=zh)                                     |
+| **Windsurf**       | `.windsurf/skills/`  | `~/.codeium/windsurf/skills/`   | [Windsurf Skills](https://docs.windsurf.com/windsurf/cascade/skills)                        |
 
 ## 対話ツール
 
 Agent Skills 標準の普及に伴い、対話式 AI ツールも Skill のインストールと使用をサポートするようになってきました。ユーザーは Skill を追加することでアシスタント/エージェントの機能を拡張し、より複雑なタスク処理を実現できます。
 
--   [Coze/扣子](https://www.coze.cn/open/docs/cozespace/what_is_skill): Skills 使用ガイド
--   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA): Agent Skills ベストプラクティス
--   [Alma](https://alma.now/docs/zh/features/skills.html): Skills 使用ガイド
+-   [Coze/扣子](https://www.coze.cn/open/docs/cozespace/what_is_skill): Coze 2.0 新しいスキル機能の使用説明
+-   [Cherry Studio](https://mp.weixin.qq.com/s/nqBMW9QaTcagohzy2gXaZA): Cherry Studio で Agent を通じて Skill を使用するベストプラクティス
 
 ## Skills マーケットプレイス
 
 [![skillsmp](assets/skillsmp.png)](https://skillsmp.com/zh)
 
-[skillsmp](https://skillsmp.com/zh) は、現在最も包括的で頻繁に更新される Skills マーケットプレイスです。GitHub 上のすべての Skills プロジェクトを自動的にインデックス化し、カテゴリ、更新時間、スター数などのタグで整理しています。
+Vercel 公式の [skills.sh](https://skills.sh/) ランキングボードの使用を推奨します。最も人気のある Skills リポジトリと個別 Skill の使用状況を直感的に確認できます。
+
+また、[skillsmp](https://skillsmp.com/zh) マーケットプレイスを補助的に使用できます。このマーケットプレイスは GitHub 上のすべての Skills プロジェクトを自動的にインデックス化し、カテゴリ、更新時間、スター数などのタグで整理しています。
 
 その他の特徴的な Agent Skills マーケットプレイス:
 
--   [skills.sh](https://skills.sh/): Vercel 公式の Skills 精選ストア
--   [SkillStore](https://skillstore.io/zh-hans): セキュリティ監査済み Skill を提供する中国語マーケットプレイス
--   [agentskills.me](https://agentskills.me/): 開発者への収益分配機能を提供するマーケットプレイス
--   [skills.rest](https://skills.rest/): Skill 評価システムを備えたマーケットプレイス
+-   [skillstore.io](https://skillstore.io/zh-hans): セキュリティ監査済み Skill を提供する中国語マーケットプレイス
+-   [agentskills.me](https://agentskills.me/): クラウドベースの Skill 実行環境を提供するマーケットプレイス
+-   [skills.rest](https://skills.rest/): Skill 分析とセキュリティレビューを提供するマーケットプレイス
 
 ## 厳選 Skills
 
@@ -119,34 +108,43 @@ Agent Skills 標準の普及に伴い、対話式 AI ツールも Skill のイ�
 
 ### ドキュメント処理
 
--   [docx](https://github.com/anthropics/skills/tree/main/skills/docx): 変更履歴、コメント、書式保持、テキスト抽出をサポートした Word ドキュメントの作成、編集、分析
--   [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx): レイアウト、テンプレート、グラフ、自動スライド生成をサポートした PowerPoint プレゼンテーションの作成、編集、分析
--   [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx): 数式、書式、データ分析、可視化をサポートした Excel スプレッドシートの作成、編集、分析
--   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf): テキストと表の抽出、新規 PDF 作成、ドキュメントの結合/分割、フォーム処理のための包括的な PDF ツールキット
+-   [docx](https://github.com/anthropics/skills/tree/main/skills/docx): Word ドキュメントを作成・編集する Skill
+-   [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx): PowerPoint プレゼンテーションを作成・編集する Skill
+-   [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx): Excel スプレッドシートを作成・編集する Skill
+-   [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf): PDF を作成・編集する Skill
+
+### 公式プロジェクト
+
+-   [anthropics/skills](https://github.com/anthropics/skills): Anthropic 公式 Skills コレクション
+-   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills): Vercel 公式 React Skills コレクション
+-   [expo/skills](https://github.com/expo/skills): Expo 公式 React Native Skills コレクション
+-   [supabase/agent-skills](https://github.com/supabase/agent-skills): Supabase 公式 PostgreSQL ベストプラクティス
+-   [remotion-dev/skills](https://github.com/remotion-dev/skills): Remotion 公式 Remotion を使用した動画コンテンツ作成
+-   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills): Dify 公式の多機能 Skills コレクション
+-   [huggingface/skills](https://github.com/huggingface/skills): HuggingFace 公式 Skill を使用した大規模モデルのトレーニング
+-   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills): Obsidian CEO 公式 Obsidian 機能拡張用 Skills コレクション
+
 
 ### コンテンツ作成
 
 -   [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills): Baoyu 個人用 Skills コレクション。WeChat 公式アカウント執筆、PPT 作成などを含む
--   [op7418/NanoBanana-PPT-Skills)](https://github.com/op7418/NanoBanana-PPT-Skills): Guizang 制作の NanoBanana ベース PPT 生成 Skill
--   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): X 記事公開用 Skill
--   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator): Skills を使用したテキスト to 画像プロンプトの生成と最適化
+-   [github.com/op7418)](https://github.com/op7418?tab=repositories): Guizang 制作の一連の Skills コレクション。PPT 作成、YouTube 分析などを含む
+-   [wshuyi/x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill): Wang Shuyi の X 記事公開用 Skill
+-   [huangserva/skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator): Huangserva の AI ポートレートテキスト to 画像プロンプトの生成と最適化 Skill
 
-### プログラミング支援
+### プログラミング経験
 
--   [anthropics/skills](https://github.com/anthropics/skills): Anthropic 公式 Skills コレクション
--   [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills): Vercel 公式プログラミング Skills コレクション
 -   [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills): 完全なプログラミングプロジェクトワークフローをカバーする Skills コレクション
--   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): 様々なプログラミングタスク向けの高品質 Skills コレクション
+-   [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills): 複数のプログラミングタスクをカバーする高品質 Skills コレクション
 -   [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): UI/UX デザイン向け Skills コレクション
--   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files): ファイルベースの計画で長期プランニングを実現する Skill
+-   [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files): ファイル計画を使用した長期 Plan 効果を実現する Skill
+-   [hyf0/vue-skills](https://github.com/hyf0/vue-skills): Vue.js 開発向け Skills コレクション
 
 ### プロダクト利用
 
 -   [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py): NotebookLM 制御用 Skill
--   [langgenius/dify](https://github.com/langgenius/dify/tree/main/.claude/skills): Dify 公式の多機能 Skills コレクション
 -   [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills): n8n ワークフロー作成用 Skills コレクション
--   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills): Obsidian 機能拡張用 Skills コレクション
--   [huggingface/skills](https://github.com/huggingface/skills): HuggingFace で大規模モデルをトレーニングするための Skills
+-   [cloudai-x/threejs-skills](https://github.com/cloudai-x/threejs-skills): Three.js 開発向け Skills コレクション
 
 ### その他のタイプ
 
